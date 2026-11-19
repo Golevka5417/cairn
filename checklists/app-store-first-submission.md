@@ -40,6 +40,8 @@
 - [ ] 每个内购商品有一张审核截图
 - [ ] 内购和 App 版本在**同一份草稿**里
 - [ ] 订阅群组本身也点了「添加以供审核」
+- [ ] 有自动续订：**每个语言**的描述里放了使用条款（EULA）链接（2026-11-19 被自动退回过，见 [这篇](../pitfalls/subscription-needs-eula-link.md)）
+- [ ] App 内付费页：价格、周期、自动续订说明、恢复购买、使用条款和隐私政策链接
 
 ## 包
 
@@ -47,3 +49,4 @@
 - [ ] 扩展（小组件等）版本号跟主 App 一致
 - [ ] 用了 CloudKit 的，结构已部署到 Production
 - [ ] Xcode 苹果账号在线
+- [ ] Mac 版：entitlements 里每个权限都有对应功能；用了 `network.server` 的在审核备注里点名写清楚（见 [这篇](../pitfalls/mac-network-server-entitlement.md)）

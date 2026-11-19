@@ -60,6 +60,8 @@ cairn 是登山的人在岔路口垒起的一小堆石头：前面的人走过�
 **坑（pitfalls）**：一个坑一篇，标题就是坑本身
 
 - [App Store 名称必须和 App 备案名一字不差，否则中国大陆区交不了](pitfalls/app-name-must-match-filing.md)
+- [有自动续订订阅，商店描述里必须放「使用条款（EULA）」链接，否则送审直接退回](pitfalls/subscription-needs-eula-link.md)
+- [Mac App 带了 network.server 权限，自动审核说「看不出对应功能」被退回](pitfalls/mac-network-server-entitlement.md)
 
 **清单（checklists）**：可以直接抄走
 
